@@ -1,0 +1,209 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/base/base",
+			"style": {
+				"navigationBarTitleText": "inputs-基础"
+			}
+		}
+        ,{
+            "path" : "pages/tabbar/expand/expand",
+			"style": {
+				"navigationBarTitleText": "inputs-拓展"
+			}
+        }
+        ,{
+            "path" : "pages/tabbar/highGrade/highGrade",
+			"style": {
+				"navigationBarTitleText": "inputs-高级"
+			}
+        }
+		,{
+		    "path" : "pages/expands/fullDemo/fullDemo",
+			"style": {
+				"navigationBarTitleText": "inputs-拓展部分示例"
+			}
+		}
+        ,{
+            "path" : "pages/basics/baseForm/baseForm",
+            "style" : {
+				"navigationBarTitleText": "inputs-基础表单组件"
+			}
+        }
+        ,{
+            "path" : "pages/highGrades/dynamicallyAddOrDeleteInputsArray/dynamicallyAddOrDeleteInputsArray",
+            "style" : {
+				"navigationBarTitleText": "inputs-动态增删inputsArray"
+			}
+        }
+        ,{
+            "path" : "pages/basics/loadPics/loadPics",
+            "style" : {
+				"navigationBarTitleText": "inputs-上传图片"
+			}
+        }
+        ,{
+            "path" : "pages/basics/pickers/pickers",
+            "style" : {
+            	"navigationBarTitleText": "inputs-picker合集"
+            }
+        }
+        ,{
+            "path" : "pages/basics/simpleFullDemo/simpleFullDemo",
+            "style" : {
+            	"navigationBarTitleText": "inputs-简单完整示例"
+			}
+        }
+        ,{
+            "path" : "pages/expands/animation/animation",
+            "style" : {
+            	"navigationBarTitleText": "inputs-动画"
+			}
+        }
+        ,{
+            "path" : "pages/basics/showInformation/showInformation",
+            "style" : {
+            	"navigationBarTitleText": "inputs-展示信息类型"
+			}
+        }
+        ,{
+            "path" : "pages/highGrades/refs/refs",
+            "style" : {
+            	"navigationBarTitleText": "inputs-ref调用"
+			}
+        }
+        ,{
+            "path" : "pages/basics/useCode/useCode",
+            "style" : {
+            	"navigationBarTitleText": "inputs-启用验证码功能"
+			}
+        }
+        ,{
+            "path" : "pages/basics/useRule/useRule",
+            "style" : {
+            	"navigationBarTitleText": "inputs-启用规则或协议功能"
+			}
+        }
+        ,{
+            "path" : "pages/highGrades/refsitems/setFocus/setFocus",
+            "style" : {
+            	"navigationBarTitleText": "inputs-ref设置focus"
+			}
+        }
+        ,{
+            "path" : "pages/highGrades/refsitems/setInputsValue/setInputsValue",
+            "style" : {
+            	"navigationBarTitleText": "inputs-ref设置inputs内部值"
+			}
+        }
+        ,{
+            "path" : "pages/highGrades/refsitems/refActiveFc/refActiveFc",
+            "style" : {
+            	"navigationBarTitleText": "inputs-ref触发activeFc"
+			}
+        }
+        ,{
+            "path" : "pages/expands/setBtnStyle/setBtnStyle",
+            "style" : {
+            	"navigationBarTitleText": "inputs-设置按钮样式"
+			}
+        }
+        ,{
+            "path" : "pages/expands/inputDebounce/inputDebounce",
+            "style" : {
+            	"navigationBarTitleText": "inputs-设置输入防抖"
+			}
+        }
+        ,{
+            "path" : "pages/highGrades/verifyStatus/verifyStatus",
+            "style" : {
+            	"navigationBarTitleText": "inputs-校验状态管理"
+			}
+        }
+        ,{
+            "path" : "pages/expands/otherSet/otherSet",
+            "style" : {
+            	"navigationBarTitleText": "inputs-otherSet其他设置"
+			}
+        }
+        ,{
+            "path" : "pages/expands/fontSizeScaleSet/fontSizeScaleSet",
+            "style" : {
+            	"navigationBarTitleText": "inputs-设置字体大小系数"
+			}
+        }
+        ,{
+            "path" : "pages/highGrades/defaultValueDemo/defaultValueDemo",
+            "style" : {
+            	"navigationBarTitleText": "inputs-初始赋值"
+			}
+        }
+        ,{
+            "path" : "pages/basics/editor/editor",
+            "style" : {
+            	"navigationBarTitleText": "inputs-editor"
+			}
+        }
+        ,{
+            "path" : "pages/basics/infinitePics/infinitePics",
+            "style" : {
+            	"navigationBarTitleText": "inputs-无限上传图片示例"
+			}
+        }
+        ,{
+            "path" : "pages/highGrades/refsitems/editorSetContent/editorSetContent",
+            "style" : {
+            	"navigationBarTitleText": "inputs-外部设置editor内容"
+			}
+        }
+        ,{
+            "path" : "pages/expands/customInputsTap/customInputsTap",
+            "style" : {
+            	"navigationBarTitleText": "inputs-自定义input图标点击事件"
+			}
+        }
+        ,{
+            "path" : "pages/highGrades/pickerAsync/pickerAsync",
+            "style" : {
+            	"navigationBarTitleText": "inputs-picker逐级获取"
+			}
+        }
+        ,{
+            "path" : "pages/highGrades/canvasSignature/canvasSignature",
+            "style" : {
+            	"navigationBarTitleText": "手写签名示例"
+			}
+        }
+        ,{
+            "path" : "pages/highGrades/refsitems/setPicsUpLoadData/setPicsUpLoadData",
+            "style" : {
+            	"navigationBarTitleText": "设置上传图片自定义数据"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "inputs-示例项目",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#08ce5b",
+		"borderStyle": "white",
+		"backgroundColor": "#F8F8F8",
+		"list": [
+			{
+				"pagePath": "pages/tabbar/base/base",
+				"text": "基础"
+			},{
+				"pagePath": "pages/tabbar/expand/expand",
+				"text": "拓展"
+			},
+			{
+				"pagePath": "pages/tabbar/highGrade/highGrade",
+				"text": "高级"
+			}
+		]
+	}
+}
